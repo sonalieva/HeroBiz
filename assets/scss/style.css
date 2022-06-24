@@ -1,0 +1,291 @@
+body header .navbar .container-fluid > a > h1 > span {
+  color: #0ea2bd;
+  font-weight: 500;
+}
+
+body header .navbar .container-fluid > a > h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #485664;
+}
+
+body header .navbar .container-fluid .collapse > ul > li {
+  padding-left: 20px;
+}
+
+body header .navbar .container-fluid .collapse > ul > li > a:hover {
+  color: #0ea2bd;
+}
+
+body header .navbar .container-fluid .collapse ul {
+  padding-left: 160px;
+}
+
+body header .navbar .container-fluid .collapse .col-md-3 > a {
+  background-color: #0ea2bd;
+  color: white;
+}
+
+body header .navbar .container-fluid .collapse > ul > li > a {
+  position: relative;
+  display: inline-block;
+}
+
+body header .navbar .container-fluid .collapse > ul > li > ul > li {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+body header .navbar .container-fluid .collapse > ul > li > a:hover .header .navbar .container-fluid .collapse > ul > li > ul > li {
+  display: block;
+}
+
+body main #welcome .container .row .photo {
+  padding-left: 150px;
+  padding: 4rem;
+}
+
+body main #welcome .container .row .photo > h2 {
+  padding-left: 220px;
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: 300;
+  color: #485664;
+}
+
+body main #welcome .container .row .photo > h2 > span {
+  color: #0ea2bd;
+}
+
+body main #welcome .container .row .photo > p {
+  color: #485664;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+body main #welcome .container .row .photo .butmod .app-button > a {
+  background-color: #0ea2bd;
+  color: white;
+}
+
+body main #welcome .container .row .photo .butmod .app-button {
+  padding-left: 200px;
+}
+
+body main #welcome .container .row .photo .butmod .icon > i {
+  color: #0ea2bd;
+  font-size: 32px;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+body main #welcome .container .row .photo .butmod .icon > span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #485664;
+}
+
+body main #welcome .container .row .photo .butmod .icon {
+  padding-left: 50px;
+  padding-top: 9px;
+}
+
+body main #feature .container .row .col-md-3 {
+  padding-top: 50px;
+  height: 300px;
+}
+
+body main #feature .container .row .col-md-3 .feature-item:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transform: translate(0, -15px);
+          transform: translate(0, -15px);
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 10px 10px #dddada;
+          box-shadow: 3px 3px 10px 10px #dddada;
+  -webkit-transform: rotateX();
+          transform: rotateX();
+}
+
+body main #feature .container .row .col-md-3 .feature-item:hover > h4 {
+  color: #0ea2bd;
+}
+
+body main #feature .container .row .col-md-3 .feature-item {
+  height: 210px;
+}
+
+body main #feature .container .row .col-md-3 .feature-item > i {
+  color: #0ea2bd;
+  font-size: 36px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body main #feature .container .row .col-md-3 .feature-item > p {
+  color: #485664;
+}
+
+body main #feature .container .row .col-md-3 .feature-item > h4 {
+  color: #485664;
+}
+
+body main #about .container .section-header > h2 {
+  color: #485664;
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+body main #about .container .section-header > p {
+  color: #8f9fae;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+body main #about .container .row .col-md-5 .about-image > img {
+  width: 500px;
+  height: auto;
+}
+
+body main #about .container .col-md-7 .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+body main #about .container .col-md-7 .tab .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+body main #about .container .col-md-7 .tab .tab button:hover {
+  background-color: #ddd;
+}
+
+body main #about .container .col-md-7 .tab .tab button.active {
+  background-color: #ccc;
+}
+
+body main #about .container .col-md-7 .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+body main #about .container .row .col-md-7 {
+  font-size: 32px;
+  color: #485664;
+}
+
+body main #team .container .team-content > h2 {
+  color: #485664;
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+body main #team .container .team-content > p {
+  color: #8f9fae;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+body main #team .container .row .col-md-4 .team-member .member-img > img {
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+body main #team .container .row .col-md-4 .team-member .member-info {
+  padding: 30px 15px;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 15px;
+          box-shadow: 0px 2px 15px;
+  background: #ffffff;
+  margin: -50px 20px 0 20px;
+  position: relative;
+  border-radius: 8px;
+}
+
+body main #contact .container .contact-content > h2 {
+  color: #485664;
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+body main #contact .container .contact-content > p {
+  color: #8f9fae;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+body main #contact .container .row .col-md-4 .info > h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+body main #contact .container .row .col-md-4 .info > p {
+  font-size: 15px;
+  color: #485664;
+}
+
+body main #contact .container .row {
+  padding-top: 30px;
+  max-height: 65%;
+}
+
+body main #contact .container .row .col-md-4 {
+  padding-top: 20px;
+}
+
+body main #contact .container .row .col-md-4 .info .info-item > i {
+  font-size: 24px;
+  color: #0ea2bd;
+  margin-right: 20px;
+}
+
+body main #contact .container .row .col-md-4 .info .info-item > h4 {
+  font-size: 16px;
+  color: #485664;
+}
+
+body main #contact .container .row .col-md-4 .info .info-item > p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #485664;
+}
+
+body main #contact .container .row .col-md-8 .mx-auto .btn-form {
+  background-color: #0ea2bd;
+  color: #dddada;
+}
+
+body footer {
+  background-color: #485664;
+}
+
+body footer .container .row .col-md-6 > ul > li {
+  text-decoration: none;
+}
+
+body footer .container-fluid {
+  background-color: #3a4753;
+}
+/*# sourceMappingURL=style.css.map */
